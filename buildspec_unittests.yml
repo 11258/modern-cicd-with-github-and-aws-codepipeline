@@ -12,8 +12,8 @@ reports:
   unittests:
     files:
       - junit.xml
-    file-format: JINITXML
+    file-format: JUNITXML
   codecoverage:
-    file:
+    files:
       - 'coverage/cobertura-coverage.xml'
     file-format: 'COBERTURAXML'
